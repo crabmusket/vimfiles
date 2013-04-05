@@ -1,5 +1,7 @@
 execute pathogen#infect()
 
+au GUIEnter * simalt ~x
+
 set nocompatible
 
 colors twilight
