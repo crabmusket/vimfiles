@@ -9,16 +9,18 @@ set nobackup
 
 set guioptions-=T
 set guioptions-=r
+set guioptions-=L
 set guioptions-=m
 
-inoremap <Right> <c-c>>>i
-inoremap <Left> <c-c><<i
+inoremap <Right> <C-t>
+inoremap <Left> <C-d>
 inoremap <Up> <c-x><c-y>
 inoremap <Down> <c-x><c-e>
-map <Right> <c-w>l
-map <Left> <c-w>h
-map <Up> <c-w>k
-map <Down> <c-w>j
+map <Right> :tabn<CR>
+map <Left> :tabp<CR>
+
+map <F8> :TagbarToggle<CR>
+imap <F8> <Esc>:TagbarToggle<CR>i
 
 set showcmd
 
