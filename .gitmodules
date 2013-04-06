@@ -10,3 +10,6 @@
 [submodule "bundle/vim-pandoc"]
 	path = bundle/vim-pandoc
 	url = git@github.com:eightyeight/vim-pandoc.git
+[submodule "bundle/vim-torquescript"]
+	path = bundle/vim-torquescript
+	url = git@github.com:eightyeight/vim-torquescript.git
