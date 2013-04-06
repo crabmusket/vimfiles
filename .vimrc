@@ -37,3 +37,6 @@ set relativenumber
 
 set list lcs=tab:\ \ 
 set cursorline
+
+set tabstop=3
+set shiftwidth=3
