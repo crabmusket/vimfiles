@@ -13,3 +13,6 @@
 [submodule "bundle/vim-torquescript"]
 	path = bundle/vim-torquescript
 	url = git@github.com:eightyeight/vim-torquescript.git
+[submodule "bundle/vim-taml"]
+	path = bundle/vim-taml
+	url = git@github.com:eightyeight/vim-taml.git
