@@ -40,3 +40,5 @@ set cursorline
 
 set tabstop=3
 set shiftwidth=3
+
+set matchtime=1
