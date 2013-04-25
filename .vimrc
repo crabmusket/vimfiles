@@ -4,8 +4,11 @@ au GUIEnter * simalt ~x
 
 set nocompatible
 
-colors twilight
-set guifont=Consolas:h11:cDEFAULT
+silent! colors pablo
+if has('gui_running')
+	silent! colors twilight
+	set guifont=Consolas:h11:cDEFAULT
+endif
 
 set nobackup
 
