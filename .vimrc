@@ -9,6 +9,8 @@ if has('gui_running')
 	silent! colors twilight
 	set guifont=Consolas:h11:cDEFAULT
 endif
+set colorcolumn=80
+highlight ColorColumn ctermbg=59 guibg=DimGray
 
 set nobackup
 
