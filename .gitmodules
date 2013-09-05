@@ -22,3 +22,6 @@
 [submodule "bundle/vim-hlsl"]
 	path = bundle/vim-hlsl
 	url = git@github.com:beyondmarc/hlsl.vim.git
+[submodule "bundle/shakespearean"]
+	path = bundle/shakespearean
+	url = git@github.com:pbrisbin/html-template-syntax
