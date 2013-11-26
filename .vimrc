@@ -7,7 +7,10 @@ set nocompatible
 silent! colors pablo
 if has('gui_running')
 	silent! colors twilight
-	set guifont=Consolas:h11:cDEFAULT
+	if has("unix")
+	else
+		set guifont=Consolas:h11:cDEFAULT
+	endif
 endif
 set colorcolumn=80
 highlight ColorColumn ctermbg=59 guibg=DimGray
@@ -19,12 +22,8 @@ set guioptions-=r
 set guioptions-=L
 set guioptions-=m
 
-inoremap <Right> <C-t>
-inoremap <Left> <C-d>
-inoremap <Up> <c-x><c-y>
-inoremap <Down> <c-x><c-e>
-map <Right> :tabn<CR>
-map <Left> :tabp<CR>
+nnoremap <S-K> :tabn<CR>
+nnoremap <S-J> :tabp<CR>
 
 map <F8> :TagbarToggle<CR>
 imap <F8> <Esc>:TagbarToggle<CR>i
