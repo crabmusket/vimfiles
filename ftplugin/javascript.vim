@@ -3,4 +3,3 @@ setlocal tabstop=2
 setlocal expandtab
 setlocal autoindent
 setlocal smartindent
-setlocal cindent
