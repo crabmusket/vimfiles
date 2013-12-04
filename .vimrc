@@ -1,7 +1,5 @@
 execute pathogen#infect()
 
-au GUIEnter * simalt ~x
-
 set nocompatible
 
 silent! colors pablo
@@ -15,7 +13,7 @@ endif
 set colorcolumn=80
 highlight ColorColumn ctermbg=59 guibg=DimGray
 
-set nobackup
+set backupcopy=yes
 
 set guioptions-=T
 set guioptions-=r
