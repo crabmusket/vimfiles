@@ -44,3 +44,6 @@ set tabstop=3
 set shiftwidth=3
 
 set matchtime=1
+
+" Syntastic options.
+let g:syntastic_cpp_compiler_options = ' -std=c++11'

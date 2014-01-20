@@ -4,3 +4,4 @@ setlocal expandtab
 setlocal autoindent
 setlocal smartindent
 setlocal cindent
+setlocal comments=sO:*\ -,mO:*\ \ ,exO:*/,s1:/*,mb:*,ex:*/,bO:///,O://
