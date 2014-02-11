@@ -14,6 +14,9 @@ set colorcolumn=80
 highlight ColorColumn ctermbg=59 guibg=DimGray
 
 set backupcopy=yes
+set backupdir=~/.vim/backup
+set undofile
+set undodir=~/.vim/backup
 
 set guioptions-=T
 set guioptions-=r
@@ -49,6 +52,9 @@ set cursorline
 
 set tabstop=3
 set shiftwidth=3
+
+set formatoptions+=r
+set formatoptions-=o
 
 set matchtime=1
 
