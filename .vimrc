@@ -17,6 +17,12 @@ highlight ColorColumn ctermbg=59 guibg=DimGray
 
 set nobackup
 
+"http://vim.wikia.com/wiki/Replace_a_builtin_command_using_cabbrev
+function! CommandCabbr(abbreviation, expansion)
+  execute 'cabbr ' . a:abbreviation . ' <c-r>=getcmdpos() == 1 && getcmdtype() == ":" ? "' . a:expansion . '" : "' . a:abbreviation . '"<CR>'
+endfunction
+command! -nargs=+ CommandCabbr call CommandCabbr(<f-args>)
+
 set guioptions-=T
 set guioptions-=r
 set guioptions-=L
@@ -31,6 +37,7 @@ set splitright
 
 nnoremap <S-K> :tabn<CR>
 nnoremap <S-J> :tabp<CR>
+CommandCabbr qq tabclose
 
 map <F8> :TagbarToggle<CR>
 imap <F8> <Esc>:TagbarToggle<CR>i
