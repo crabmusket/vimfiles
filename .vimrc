@@ -60,3 +60,5 @@ set tabstop=3
 set shiftwidth=3
 
 set matchtime=1
+
+let g:vim_json_syntax_conceal = 0
