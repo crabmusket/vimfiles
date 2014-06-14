@@ -62,3 +62,4 @@ set shiftwidth=3
 set matchtime=1
 
 let g:vim_json_syntax_conceal = 0
+let g:vim_markdown_folding_disabled = 1
