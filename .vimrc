@@ -1,6 +1,7 @@
 execute pathogen#infect()
 
 au GUIEnter * simalt ~x
+au BufRead,BufNewFile *.md set filetype=markdown
 
 set nocompatible
 
