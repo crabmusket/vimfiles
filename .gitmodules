@@ -46,9 +46,6 @@
 [submodule "bundle/vim-localvimrc"]
 	path = bundle/vim-localvimrc
 	url = git://github.com/embear/vim-localvimrc.git
-[submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
-	url = git://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/rust.vim"]
 	path = bundle/rust.vim
 	url = git://github.com/wting/rust.vim
