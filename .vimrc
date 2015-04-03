@@ -48,6 +48,7 @@ set showcmd
 set backspace=2
 set nowrap
 set mouse=a
+set mousemodel=popup
 
 filetype plugin indent on
 syntax on
