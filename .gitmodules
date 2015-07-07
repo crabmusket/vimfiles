@@ -46,3 +46,6 @@
 [submodule "bundle/vim-fontsize"]
 	path = bundle/vim-fontsize
 	url = git://github.com/drmikehenry/vim-fontsize
+[submodule "bundle/editorconfig"]
+	path = bundle/editorconfig
+	url = git://github.com/editorconfig/editorconfig-vim.git
