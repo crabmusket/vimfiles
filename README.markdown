@@ -2,22 +2,15 @@
 
 My personal vim/gVim setup.
 
-## Installation (Windows 7)
+## Installation (Ubuntu)
 
 Git Bash:
 ```
 cd ~
-git clone git://github.com/eightyeight/vimfiles
-cd vimfiles
+echo 'source ~/.vim/.vimrc' > .vimrc
+git clone git@github.com:eightyeight/vimfiles .vim
+cd .vim
 git submodule init
 git submodule update
+cd ..
 ```
-
-cmd.exe:
-```
-cd %HOMEPATH%
-mklink /H .vimrc vimfiles\.vimrc
-mkdir AppData\Roaming\Vim AppData\Roaming\Vim\undo AppData\Roaming\Vim\swap
-```
-
-Install [ctags.exe](http://ctags.sourceforge.net/).
