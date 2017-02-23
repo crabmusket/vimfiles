@@ -38,6 +38,8 @@ set splitright
 
 nnoremap <S-K> :tabn<CR>
 nnoremap <S-J> :tabp<CR>
+nnoremap <A-K> :tabm +1<CR>
+nnoremap <A-J> :tabm -1<CR>
 CommandCabbr qq tabclose
 
 map <F8> :TagbarToggle<CR>
